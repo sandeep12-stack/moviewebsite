@@ -25,7 +25,7 @@ const mockMovies = [
 
 const genres = ["All Genres", "Action", "Romance", "Comedy", "Drama", "Thriller", "Horror", "Animation", "Sci-Fi", "Adventure"];
 
-const MovieApp = () => {
+const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState('All Genres');
   const [favorites, setFavorites] = useState([]);
@@ -187,4 +187,4 @@ const MovieApp = () => {
   );
 };
 
-export default MovieApp;
+export default App;
